@@ -1,0 +1,9 @@
+body {
+    margin: 100px;
+    background-color: rgb(165, 195, 212);
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+}
