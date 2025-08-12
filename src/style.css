@@ -43,36 +43,27 @@ border: 2px solid #fff ;
 font-size: 20px;
 color: #fff;
 padding: 10px;
-margin: 0px 8px;
+margin: 0px 8px 50px;
 border-radius: 8px ;
 }
 
-.button1:hover{
+.button1:hover, .button2:hover, .button3:hover, .button4:hover, .button5:hover, .button6:hover, .startOver:hover{
 background-color: red;
 cursor: pointer; 
-
-}
-.button2:hover{
-background-color: red;  
-cursor: pointer;   
 }
 
-.button3:hover{
-    background-color: red;
- cursor: pointer; 
+.startOver {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 8px 10px;
+    border-radius: 15px;
+    font-size: 20px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    font-weight: 900;
+    text-align: center;
 }
 
-.button4:hover{
-    background-color: red;
- cursor: pointer; 
-}
 
-.button5:hover{
- background-color: red;
- cursor: pointer;     
-}
-
-.button6:hover{
- background-color: red; 
- cursor: pointer;  
-}

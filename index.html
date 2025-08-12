@@ -3,9 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="/src/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Oxanium:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scoreboard</title>
   </head>
@@ -15,25 +18,29 @@
         <h2 class="home">Home</h2>
         <h2 class="guest">Guest</h2>
       </div>
-<div class="columns2">
-    <p class="score" id="score-left">0</p>
-    <p class="score" id="score-right">0</p>
-</div>
-<div class="columns3">
-  <div class="buttons">
-  <button class="button1" id="button1" onclick="one()">+1</button>
-  <button class="button2" id="button2" onclick="two()">+2</button>
-  <button class="button3" id="button3" onclick="three()">+3</button>
-</div>
-<div class="buttons">
-  <button class="button4" id="button4" onclick="four()">+1</button>
-  <button class="button5" id="button5" onclick="five()">+2</button>
-  <button class="button6" id="button6" onclick="six()">+3</button>
-</div>
-</div>
-
+      <div class="columns2">
+        <p class="score" id="score-left">0</p>
+        <p class="score" id="score-right">0</p>
+      </div>
+      <div class="columns3">
+        <div class="buttons">
+          <button class="button1" id="button1" onclick="one()">+1</button>
+          <button class="button2" id="button2" onclick="two()">+2</button>
+          <button class="button3" id="button3" onclick="three()">+3</button>
+        </div>
+        <div class="buttons">
+          <button class="button4" id="button4" onclick="four()">+1</button>
+          <button class="button5" id="button5" onclick="five()">+2</button>
+          <button class="button6" id="button6" onclick="six()">+3</button>
+        </div>
+      </div>
+      <div>
+        <button class="startOver" id="start-over" onclick="over()">
+          New Game
+        </button>
       </div>
     </div>
+
     <script src="/src/index.js"></script>
   </body>
 </html>
