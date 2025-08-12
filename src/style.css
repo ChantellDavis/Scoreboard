@@ -3,7 +3,76 @@ body {
     background-color: rgb(165, 195, 212);
 }
 
-.columns {
+.board {
+    background-color: rgb(12, 12, 92);
+    padding: 50px 80px;
+    border: none;
+    border-radius: 12px;
+    box-shadow: 10px 8px 0px 1px rgb(0, 0, 0,.4);
+}
+.columns, .columns2, .columns3 {
     display: flex;
     justify-content: space-around;
+}
+
+.home, .guest {
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 3px;
+
+}
+
+
+.score {
+    color: red;
+    background-color: black;
+    padding: 20px 60px;
+    border-radius: 8px;
+    font-size: 80px;
+    font-family:"Oxanium", sans-serif;
+    margin-top: 0 ;
+    margin-bottom: 30px;
+
+
+}
+
+.button1, .button2, .button3, .button4, .button5, .button6 {
+background-color: transparent;
+border: 2px solid #fff ;
+font-size: 20px;
+color: #fff;
+padding: 10px;
+margin: 0px 8px;
+border-radius: 8px ;
+}
+
+.button1:hover{
+background-color: red;
+cursor: pointer; 
+
+}
+.button2:hover{
+background-color: red;  
+cursor: pointer;   
+}
+
+.button3:hover{
+    background-color: red;
+ cursor: pointer; 
+}
+
+.button4:hover{
+    background-color: red;
+ cursor: pointer; 
+}
+
+.button5:hover{
+ background-color: red;
+ cursor: pointer;     
+}
+
+.button6:hover{
+ background-color: red; 
+ cursor: pointer;  
 }
