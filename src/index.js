@@ -1,34 +1,41 @@
 let scoreLeft = document.getElementById("score-left")
 let scoreRight = document.getElementById("score-right")
+let startOver = document.getElementById("start-over")
 console.log(scoreRight)
 let count = 0
 
 function one() {
-   let countUp = count + 1
-    scoreLeft.innerText = countUp
+   count += 1
+    scoreLeft.innerText = count
 }
 
 function four() {
-    let countUp = count + 1
-     scoreRight.innerText = countUp
+    count += 1
+     scoreRight.innerText = count
  }
 
  function two() {
-    let countUp2 = count + 2
-     scoreLeft.innerText = countUp2
+     count += 2
+     scoreLeft.innerText = count
  }
  
  function five() {
-     let countUp2 = count + 2
-      scoreRight.innerText = countUp2
+      count += 2
+      scoreRight.innerText = count
   }
 
   function three() {
-    let countUp3 = count + 3 
-     scoreLeft.innerText = countUp3
+   count += 3 
+     scoreLeft.innerText = count
  }
  
  function six() {
-     let countUp3 = count + 3
-      scoreRight.innerText = countUp3
+     count += 3
+      scoreRight.innerText = count
+  }
+
+  function over() {
+    count = 0
+    scoreRight.innerText = count
+    scoreLeft.innerText = count
   }
